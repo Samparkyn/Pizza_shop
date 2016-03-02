@@ -1,0 +1,13 @@
+<h1>Pizza Orders</h1>
+
+<% @pizzas.each do |pizza| %>
+
+  <b>Name :</b>
+  <p><%= pizza.space_between_names() %></p>
+
+  <b>Order :</b>
+  <p><%= pizza.quantity() %> x <%= pizza.topping() %></p>
+
+<hr>
+
+<% end %>

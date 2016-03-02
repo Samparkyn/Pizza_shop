@@ -1,0 +1,11 @@
+body {
+  background-color: deepskyblue;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+  padding-bottom: 30px;
+}
